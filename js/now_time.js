@@ -4,8 +4,8 @@ function now_time() {
     let month = now.getMonth() + 1;
     let date = now.getDate();
     let day = now.getDay();
-    let arr = ['ÈÕ', 'Ò»', '¶þ', 'Èý', 'ËÄ', 'Îå', 'Áù'];
-    day = 'ÐÇÆÚ' + arr[day];
+    let arr = ['æ—¥', 'ä¸€', 'äºŒ', 'ä¸‰', 'å››', 'äº”', 'å…­'];
+    day = 'æ˜ŸæœŸ' + arr[day];
     let hour = now.getHours();
     let minute = now.getMinutes();
     let second = now.getSeconds();
