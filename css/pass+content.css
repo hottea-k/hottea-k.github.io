@@ -1,0 +1,88 @@
+/*过渡盒子容器样式*/
+div.pass {
+    max-width: 1920px;
+    min-width: 1700px;
+    height: 200px;
+    margin: 10px auto;
+    position: relative;
+}
+
+
+/*左过渡盒子样式*/
+div.pass_left {
+    width: calc( 50% - 490px);
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 0 25px -15px rgba(0,0,0,0.4), -15px 0 25px -15px rgba(0,0,0,0.4);
+    position: absolute;
+    left: 0;
+}
+
+
+/*右过渡盒子样式*/
+div.pass_right {
+    width: calc( 50% - 490px);
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 0 25px -15px rgba(0,0,0,0.4), -15px 0 25px -15px rgba(0,0,0,0.4);
+    position: absolute;
+    right: 0;
+}
+
+
+/*中过渡盒子样式*/
+div.pass_center {
+    width: 960px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 0 25px -15px rgba(0,0,0,0.4), -15px 0 25px -15px rgba(0,0,0,0.4);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+
+/*内容盒子容器样式*/
+div.content {
+    width: 100%;
+    min-width: 1700px;
+    margin: 10px auto;
+}
+
+
+/*中内容盒子样式*/
+div.content_center {
+    max-width: 960px;
+    min-width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 15px 0 25px -15px rgba(0,0,0,0.4), -15px 0 25px -15px rgba(0,0,0,0.4);
+    position: relative;
+}
+
+
+div.card {
+    display: inline-block;
+    position: relative;
+    width: 900px;
+    border-radius: 10px;
+    margin: 30px 30px 0 30px;
+    background-color: gainsboro;
+}
+
+
+
+div p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.music > audio {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

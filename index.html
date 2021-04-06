@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--网页编码-->
+    <meta charset="utf-8">
+
+    <!--网页关键词-->
+    <meta name='keywords' content='京东'>
+
+    <!--网页介绍-->
+    <meta name='description' content='这是一个购物平台'>
+
+    <!--网页标题-->
+    <title>HotTea小屋，欢迎来到某人的小空间</title>
+
+    <!--清除默认格式-->
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <!--图标库-->
+    <link rel="stylesheet" href="./css/fontawesome/all.css">
+
+    <!--导航栏格式-->
+    <link rel="stylesheet" href="./css/header.css">
+
+    <!--背景盒子格式-->
+    <link rel="stylesheet" href="./css/background.css">
+
+    <!--顶部盒子格式-->
+    <link rel="stylesheet" href="./css/top.css">
+
+    <!--过渡+内容盒子格式-->
+    <link rel="stylesheet" href="./css/pass+content.css">
+
+    <!--底部盒子格式-->
+    <!--网页logo-->
+    <link rel="icon" type="image/x-icon" href="pictures/logo.svg" />
+
+    <!--吹灭蜡烛动画-->
+    <link rel="stylesheet" href="./css/candle.css">
+
+    <!--风琴卡片-->
+    <link rel="stylesheet" href="./css/card_box.css">
+
+    <!--卡片时钟-->
+    <link rel="stylesheet" href="./css/clock.css">
+
+    <!--时间-->
+    <script type="text/javascript" src="./js/now_time.js" charset="gbk"></script>
+
+
+
+
+</head>
+
+<body>
+
+    <!--背景-->
+    <div class="background">
+        <content></content>
+    </div>
+
+
+    <!--导航栏-->
+    <div class="nav">
+
+        <img class="nav" src="./pictures/portrait.jpg" alt="头像" />
+
+        <h1 class="nav"> 欢迎来到HotTea小屋</h1>
+
+        <div id="time"></div>
+
+        <ul class="nav">
+
+
+            <li class="nav">
+                <div class="chose"><a href="" target=""><div class="i"><i class="fas fa-search"></i></div>更多<i class="fas fa-angle-down"></i></a></div>
+                <div class="chose-list">
+                    <a href="https://www.baidu.com/" target=""><div class="i"><img src="https://www.baidu.com/favicon.ico" alt="baidu" /></div>百度</a>
+                    <a href="https://www.google.cn/" target=""><div class="i"><img src="https://www.google.cn/favicon.ico" alt="google" /></div>谷歌</a>
+                    <a href="https://cn.bing.com/" target=""><div class="i"><img src="https://cn.bing.com/favicon.ico" alt="bing" /></div>必应</a>
+                    <a href="https://www.sogou.com/" target=""><div class="i"><img src="https://www.sogou.com/favicon.ico" alt="sogou" /></div>搜狗搜索</a>
+                    <a href="https://www.so.com/" target=""><div class="i"><img src="https://www.so.com/favicon.ico" alt="so" /></div>360搜索</a>
+                </div>
+            </li>
+            <li class="line"></li>
+
+
+            <li class="nav">
+                <div class="chose"><a href="" target=""><div class="i"><i class="fas fa-file"></i></div>文件库<i class="fas fa-angle-down"></i></a></div>
+                <div class="chose-list">
+                    <a href="https://pan.baidu.com/" target=""><div class="i"><img src="https://pan.baidu.com/m-static/base/static/images/favicon.ico" alt="pan.baidu" /></div>百度网盘</a>
+                    <a href="https://www.weiyun.com/" target=""><div class="i"><img src="https://www.weiyun.com/favicon.ico" alt="weiyun" /></div>腾讯微云</a>
+                    <a href="https://vdisk.weibo.com/" target=""><div class="i"><img src="https://vdisk.weibo.com/favicon.ico" alt="vdisk.weibo" /></div>新浪微盘</a>
+                </div>
+            </li>
+            <li class="line"></li>
+
+
+            <li class="nav">
+                <div class="chose"><a href="" target=""><div class="i"><i class="fas fa-headphones"></i></div>音乐厅<i class="fas fa-angle-down"></i></a></div>
+                <div class="chose-list">
+                    <a href="https://music.163.com/" target=""><div class="i"><img src="http://p3.music.126.net/tBTNafgjNnTL1KlZMt7lVA==/18885211718935735.jpg" alt="music.163" /></div>网易云音乐</a>
+                    <a href="https://www.kugou.com/" target=""><div class="i"><img src="https://www.kugou.com/favicon.ico" alt="kugou" /></div>酷狗音乐</a>
+                    <a href="http://www.kuwo.cn/" target=""><div class="i"><img src="http://www.kuwo.cn/favicon.ico" alt="kuwo" /></div>酷我音乐</a>
+                    <a href="https://y.qq.com/" target=""><div class="i"><img src="https://y.qq.com/favicon.ico" alt="y.qq" /></div>QQ音乐</a>
+                </div>
+            </li>
+            <li class="line"></li>
+
+
+            <li class="nav">
+                <div class="chose"><a href="" target=""><div class="i"><i class="fas fa-compact-disc"></i></div>放映室<i class="fas fa-angle-down"></i></a></div>
+                <div class="chose-list">
+                    <a href="https://www.bilibili.com/" target=""><div class="i"><img src="https://www.bilibili.com/favicon.ico" alt="bilibili" /></div>哔哩哔哩</a>
+                    <a href="https://v.qq.com/" target=""><div class="i"><img src="https://v.qq.com/favicon.ico" alt="v.qq" /></div>腾讯视频</a>
+                    <a href="https://www.iqiyi.com/" target=""><div class="i"><img src="https://www.iqiyi.com/favicon.ico" alt="iqiyi" /></div>爱奇艺</a>
+                    <a href="https://www.youku.com/" target=""><div class="i"><img src="https://www.youku.com/favicon.ico" alt="youku" /></div>优酷</a>
+                    <a href="https://www.acfun.cn/" target=""><div class="i"><img src="https://www.acfun.cn/favicon.ico" alt="AcFun" /></div>AcFun</a>
+                    <a href="https://www.youtube.com/" target=""><div class="i"><img src="https://www.google.cn/s2/favicons?domain=http://www.youtube.com/" alt="Youtube" /></div>Youtube</a>
+                </div>
+            </li>
+            <li class="line"></li>
+
+
+            <li class="nav">
+                <div class="chose"><a href=""><div class="i"><i class="fas fa-home"></i></div>首页</a></div>
+            </li>
+            <li class="line"></li>
+
+
+        </ul>
+
+    </div>
+
+
+    <!--顶部盒子-->
+    <div class="top">
+
+        <iframe class="weather" allowtransparency="true" frameborder="0" width="470" height="220" scrolling="no" src="https://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=1&v=2&d=2&bd=0&k=000000&f=&ltf=009944&htf=cc0000&q=1&e=1&a=1&c=59287&w=470&h=220&align=left"></iframe>
+
+        <!--动态圆圈头像-->
+        <div class="cycle">
+            <div class="cycle-5">
+                <a class="c1" href="" target="">没想好1</a>
+                <a class="c2" href="" target="">没想好2</a>
+                <a class="c3" href="" target="">没想好3</a>
+            </div>
+            <div class="cycle-1">
+                <img src="./pictures/green_cycle.svg" alt="绿圈" />
+                <div class="cycle-2">
+                    <img src="./pictures/yellow_cycle.svg" alt="黄圈" />
+                    <div class="cycle-3">
+                        <img src="./pictures/blue_cycle.svg" alt="蓝圈" />
+                        <div class="cycle-4"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--搜索框-->
+        <div class="search">
+            <form class="search" action="https://www.baidu.com/s" target="_blank">
+                <i class="fas fa-search"></i>
+                <input class="text" type="text" name="wd" placeholder="请输入搜索内容" value="" />
+                <input class="search" type="submit" value="搜索" />
+            </form>
+        </div>
+
+    </div>
+
+
+    <!--过渡盒子-->
+    <div class="pass">
+
+        <div class="pass_center">
+            <div class="candle">
+                <div class="warpper">
+                    <div class="candles">
+                        <div class="light_wave"></div>
+
+                        <!-- 蜡烛1 -->
+                        <div class="candle1">
+                            <div class="candle1_body">
+                                <div class="candle1_eyes">
+                                    <span class="candle1_eyes-left"></span>
+                                    <span class="candle1_eyes-right"></span>
+                                </div>
+                                <div class="candle1_mouth"></div>
+                            </div>
+                            <div class="candle1_stick"></div>
+                        </div>
+
+                        <!-- 蜡烛2 -->
+                        <div class="candle2">
+                            <div class="candle2_body">
+                                <div class="candle2_eyes">
+                                    <span class="candle2_eyes-left"></span>
+                                    <span class="candle2_eyes-right"></span>
+                                </div>
+                            </div>
+                            <div class="candle2_stick"></div>
+                        </div>
+
+                        <div class="candle2_fire"></div>
+                        <div class="sparkle1"></div>
+                        <div class="sparkle2"></div>
+                        <div class="candle_smoke1"></div>
+                        <div class="candle_smoke2"></div>
+                    </div>
+
+                    <div class="floor"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pass_left">
+            <div class="clock">
+                <div class="flip">
+                    <div class="digital front" data-number="0"></div>
+                    <div class="digital back" data-number="1"></div>
+                </div>
+                <div class="flip">
+                    <div class="digital front" data-number="0"></div>
+                    <div class="digital back" data-number="1"></div>
+                </div>
+                <em class="divider">:</em>
+                <div class="flip">
+                    <div class="digital front" data-number="0"></div>
+                    <div class="digital back" data-number="1"></div>
+                </div>
+                <div class="flip">
+                    <div class="digital front" data-number="0"></div>
+                    <div class="digital back" data-number="1"></div>
+                </div>
+                <em class="divider">:</em>
+                <div class="flip">
+                    <div class="digital front" data-number="0"></div>
+                    <div class="digital back" data-number="1"></div>
+                </div>
+                <div class="flip">
+                    <div class="digital front" data-number="0"></div>
+                    <div class="digital back" data-number="1"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pass_right">
+
+        </div>
+
+    </div>
+    <script src="./js/clock.js"></script>
+
+    <!--内容盒子-->
+    <div class="content">
+        <div class="content_center">
+
+
+            <div class="card">
+                <div class="map">
+                    <iframe style=" width: 900px; height: 500px; border-radius: 10px;" src="https://www.lovestu.com/api/project/cnmapyinqing/obj.php"> </iframe>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="video">
+                    <iframe style=" width: 900px; height: 400px; border-radius: 10px;" src="https://player.bilibili.com/player.html?aid=459365573&bvid=BV1a5411N74d&cid=303690256&page=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"> </iframe>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="video">
+                    <iframe style=" width: 900px; height: 400px; border-radius: 10px;" src="https://player.bilibili.com/player.html?aid=502296815&bvid=BV1rK411c7fv&cid=316255569&page=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"> </iframe>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="video">
+                    <iframe style=" width: 900px; height: 400px; border-radius: 10px;" src="https://player.bilibili.com/player.html?aid=586910265&bvid=BV1sz4y1m7ng&cid=304457519&page=1" scrolling="no" border="0" frameborder="0" framespacing="0" allowfullscreen="true"> </iframe>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="text" style="padding:30px; line-height:20px;">
+                    spigot（就是大家熟悉的水龙头了）【本人强烈推荐插件服务器使用它】
+                    <br>那么我就不多做介绍了，spigot是大家熟悉的一个核心支持载入bukkit和spigot插件
+                    <br>优点：只允许加入插件不允许加入mods
+                    <br>稳定性良好
+                    <br>spigot一般自带反作弊（包括一些分支）
+                    <br>缺点：本人暂未得知
+                    <br>可自定义内容非常多
+                    <br>
+                    <br>
+                    <br>paper（即纸张核心）{新版本以及逃离spigot，旧版本称作paperspigot}【本人推荐插件服务器可以使用】
+                    <br>那么我就不多做介绍了，paper是大家熟悉的一个核心
+                    <br>支持载入bukkit和spigot插件
+                    <br>优点：只允许加入插件不允许加入mods
+                    <br>稳定性比spigot稳定
+                    <br>缺点：有一部分插件不支持
+                    <br>可自定义内容非常多
+                    <br>
+                    <br>
+                    <br>Tuinity（学名翻译过来叫做胸围）｛能够支持1.16.5的插件服务器核心｝【本人推荐】
+                    <br>他的目的为了优化paper核心的人数增加不会卡服问题
+                    <br>（但是我测试出来开服很快，关闭服务器.......比平常的服务器超出了更多的时间，这是为啥？）
+                    <br>支持载入bukkit和spigot插件
+                    <br>只允许加入插件不允许加入mods
+                    <br>优点：稳定性比paper稳定
+                    <br>缺点：有一部分插件不支持
+                    <br>可自定义内容非常多
+                    <br>
+                    <br>
+                    <br>Yatopia（无法翻译）｛也是能够支持1.16.x以上的插件服务器核心｝【本人热烈推荐】
+                    <br>他的目的也是为了优化paper核心的一些卡顿和优化问题
+                    <br>还有很多的核心被他拿去优化的整合一个核心出来（具体什么核心被他利用了看github）
+                    <br>本核心也是Tuinity的后身，肯定比楼上的核心适用很多
+                    <br>优点：稳定性比paper稳定，也比Tuinity稳定，而且关服速度变快了许多
+                    <br>缺点：有一部分插件不支持
+                    <br>可自定义内容非常多
+                    <br>
+                    <br>
+                    <br>Sponge（即海绵端）{高版本mods和插件通用最好的核心}【本人不太推荐（除非特殊要求）】
+                    <br>市面上许多人称作为KC之后的版本，可以加入sponge插件
+                    <br>优点：支持sponge插件，并且支持mods使用
+                    <br>mods兼容比楼上1.7.10那些核心以及1.12.2那些核心加强了不少
+                    <br>sponge可以直接一键咕咕（安装）
+                    <br>优化极强，而且服务器兼容性更高，除非你干傻事，不然几乎不出现报错
+                    <br>根据dalao发现，从API7开始（也就是高版本JAVA）对于线程优化能力更强。负载更好
+                    <br>缺点：即使你用了很多办法也很难让bukkit插件稳定运行
+                    <br>sponge插件特别少，比bukkit更难开发
+                    <br>启动速度特别慢
+                    <br>操作特别难，与前面的完全不相同
+                    <br>可自定义内容比较多
+                    <br>
+                    <br>
+                    <br>mohist（即墨端）{现在高版本一般多用的核心}已经支持1.16版本了~【本人强烈推荐】
+                    <br>mohist是现在我遇到高版本除了sponge最好的一个版本
+                    <br>虽然内核不行，但是比楼上的好多了
+                    <br>本核心还兼容paper的一些插件支持
+                    <br>优点：这类核心支持高版本1.12.2
+                    <br>既可以加入mods又可以加入插件
+                    <br>不需要多大的服务器即可运行，并且自带多线程
+                    <br>缺点：比较多插件不支持，部分mods不支持
+                    <br>由于这点是通病：mods和插件在一起运行难免出现一些七七八八的bug
+                    <br>可自定义内容非常多
+                    <br>
+                    <br>
+                    <br>Akarin（平常我念AK【A KA（第一声和第四声）】）｛新版本的多线程插件核心｝【本人强烈推荐】
+                    <br>这东西是楼上TacoSpigot的后续版本
+                    <br>一个来自于新维度的一款核心
+                    <br>优点：只允许加入插件不允许加入mods
+                    <br>多线程，能够提升服务器性能
+                    <br>稳定性良好，传承了TacoSpigot核心的功能
+                    <br>缺点：本人暂时未发现（有人发现了我会点名的~）
+                    <br>可自定义功能非常多
+                    <br>
+                    <br>
+                    <br>Arclight（没错海螺端）｛现在超级高版本例如1.16.x使用的核心｝【本人比较推荐】
+                    <br>现在Arclight是使用forge协议制作的一个mods和插件共存的核心｛超高版本｝
+                    <br>优点：这类核心支持超高版本（例如1.14.x以上）
+                    <br>既可以加入mods又可以加入插件
+                    <br>缺点：比较多插件不支持，部分mods不支持
+                    <br>服务器网络环境不太好，下载必备库比较累
+                    <br>由于这点是通病：mods和插件在一起运行难免出现一些七七八八的bug
+                    <br>可自定义内容非常多
+                    <br>
+                    <br>
+                    <br>Atom（学名翻译过来时原子？）｛仅支持1.12.x｝【本人推荐】
+                    <br>他的目的为了Bukkit插件和MinecraftForge mods支持均可稳定运行（是全部哦~）
+                    <br>这个核心已经稍微成熟了，而且做到了几乎市面上的mods和插件运行完全不会报错的那种，是一个良好的核心
+                    <br>但是有点新了，做的优化不够成熟，会卡服
+                    <br>优点：能说这个算是全能了，兼容市面上算是全部的mods和插件混合开服
+                    <br>缺点：稳定性不太好，很吃配置，会卡服务器
+                    <br>可自定义功能非常多
+                    <br>
+                    <br>
+                    <br>Fabric（新的mods模组协议核心，本人还没用过）没地址欢迎楼下给我一条谢谢【没用过怎么推荐？】
+                    <br>现在Fabric是使用Fabric协议制作的一个mods核心｛超高版本｝
+                    <br>优点：这类核心支持超高版本（例如1.12.x以上）
+                    <br>客户端只能是Fabric协议的客户端，forge不能支持
+                    <br>缺点：暂未得知
+                    <br>可自定义内容不知道
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="text" style="padding:30px; line-height:20px;">
+                    <br>目前的树果攻略都不太完整或是很早以前的了与现在的情况不一样
+                    <br>
+                    <br>树果名字:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;生长周期:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;枯萎时间:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;出售价格:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;配方
+                    <br>沙麟果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;64h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超甜&nbsp;&nbsp;&nbsp;超酸&nbsp;&nbsp;&nbsp;苦
+                    <br>枝荔果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;64h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超辣&nbsp;&nbsp;&nbsp;超甜&nbsp;&nbsp;&nbsp;涩
+                    <br>龙晴果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;64h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超涩&nbsp;&nbsp;&nbsp;超甜&nbsp;&nbsp;&nbsp;苦
+                    <br>龙火果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;64h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超辣&nbsp;&nbsp;&nbsp;超苦&nbsp;&nbsp;&nbsp;酸
+                    <br>杏仁果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;64h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超涩&nbsp;&nbsp;&nbsp;超酸&nbsp;&nbsp;&nbsp;辣
+                    <br>解异常果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;46h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超辣&nbsp;&nbsp;&nbsp;超酸&nbsp;&nbsp;&nbsp;超甜
+                    <br>减攻击努力果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超涩&nbsp;&nbsp;&nbsp;涩&nbsp;&nbsp;&nbsp;酸
+                    <br>减HP努力果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超辣&nbsp;&nbsp;&nbsp;辣&nbsp;&nbsp;&nbsp;苦
+                    <br>减物防努力果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超甜&nbsp;&nbsp;&nbsp;甜&nbsp;&nbsp;&nbsp;辣
+                    <br>减特攻努力果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超苦&nbsp;&nbsp;&nbsp;苦&nbsp;&nbsp;&nbsp;涩
+                    <br>减特防努力果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超酸&nbsp;&nbsp;&nbsp;酸&nbsp;&nbsp;&nbsp;甜
+                    <br>减速度努力果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超辣&nbsp;&nbsp;&nbsp;辣&nbsp;&nbsp;&nbsp;涩
+                    <br>pp果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超辣&nbsp;&nbsp;&nbsp;苦&nbsp;&nbsp;&nbsp;甜
+                    <br>解毒果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;甜&nbsp;&nbsp;&nbsp;甜&nbsp;&nbsp;&nbsp;甜
+                    <br>解冻果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;酸&nbsp;&nbsp;&nbsp;酸&nbsp;&nbsp;&nbsp;酸
+                    <br>解睡果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;涩&nbsp;&nbsp;&nbsp;涩&nbsp;&nbsp;&nbsp;涩
+                    <br>解麻果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;辣&nbsp;&nbsp;&nbsp;辣&nbsp;&nbsp;&nbsp;辣
+                    <br>解烧果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3h&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;苦&nbsp;&nbsp;&nbsp;苦&nbsp;&nbsp;&nbsp;苦
+                    <br>
+                    <br>生长周期为64小时的平均有11个树果
+                    <br>生长周期为36小时的平均有8个树果(可能不准确)
+                    <br>生长周期为22小时的平均有6个树果
+                    <br>生长周期为16小时的平均有4个树果
+                    <br>在这些树果中解毒果，解冻果，解睡果，解麻果，解烧果为基础果(分解种子的果子，用于提供种子自给自足)基础果一棵树平均4个果实。
+                    <br>买商店一般种龙火果就拿合众吹寄市的6亩地为例每亩地12个位置，一棵树上平均11个果子一亩地就有132个果子，6亩地就有792个树果，每个可以卖1300，可以赚1029600(是3天可以赚这么多，还没算种子的钱)其中想要自给自足，就需要在丰饶6亩地种基础果，一般可以种3次，种子就不需要买了，只需要采摘器的钱。
+                    <br>一般情况下合众丰饶神社的7亩地(因为有一块地需要冲浪所以一般种6块)都种基础果
+                    <br>pp果需要卖交易行，收税150，市场价为1150，每棵树平均有6个树果，可以卖6000，1亩地赚72000，
+                    <br>6亩赚432000，想要自给自足就要留一半并且需要种丰饶的地，这样就可以节约种子的钱，可以赚216000，除去成本可以赚115200。
+                    <br>本攻略为墨北(zcyssm)制作
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <!--底部盒子-->
+    <div class="bottom">
+        <a class="abc" href="#"><input class="abc" type="button" value="回到顶部" onclick="window.alert('回到顶部');" /></a>
+    </div>
+
+
+    <!--音乐盒子-->
+    <div class="music">
+        <audio controls autoplay loop>
+            对不起，您的浏览器不支持音频播放，请升级或更换浏览器！
+            <source src="./sound/心动 - 陈洁仪.mp3" type="audio/mp3" />
+        </audio>
+    </div>
+
+</body>
+</html>

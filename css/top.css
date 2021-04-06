@@ -1,0 +1,247 @@
+/*顶部盒子样式*/
+div.top {
+    background: url(../pictures/top.png) no-repeat center top;
+    max-width: 1920px;
+    height: 700px;
+    min-width: 1700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/*动态圆圈头像盒子+定位*/
+div.cycle {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+}
+
+
+/*绿圈大小+定位*/
+div.cycle-1 {
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    margin-left: -130px;
+    margin-top: -130px;
+}
+
+
+    /*绿圈旋转*/
+    div.cycle-1 img {
+        animation: surround-right 2s linear infinite;
+    }
+
+
+/*黄圈大小+定位*/
+div.cycle-2 {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -120px;
+    margin-top: -120px;
+}
+
+
+    /*黄圈旋转*/
+    div.cycle-2 img {
+        animation: surround-left 2s linear infinite;
+    }
+
+
+/*蓝圈大小+定位*/
+div.cycle-3 {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -110px;
+    margin-top: -110px;
+}
+
+
+    /*蓝圈旋转*/
+    div.cycle-3 img {
+        animation: surround-right 1s linear infinite;
+    }
+
+
+/*头像*/
+div.cycle-4 {
+    /*头像图片样式*/
+    background: url(../pictures/portrait.jpg) center;
+    background-size: contain;
+    /*边框样式*/
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /*定位居中*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+    /*光晕效果*/
+    animation: flicker 1.5s ease-in-out infinite alternate;
+}
+
+
+/*紫圈大小+定位*/
+div.cycle-5 {
+    background: url(../pictures/cycle.svg);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+
+
+/*右旋动态*/
+@keyframes surround-right {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*左旋动态*/
+@keyframes surround-left {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
+/*光晕动态*/
+@keyframes flicker {
+    from {
+        box-shadow: 0 0 1px #ff99ff, 0 0 2px #ff99ff, 0 0 3px #ff99ff, 0 0 4px #ff99ff;
+    }
+
+    to {
+        box-shadow: 0 0 5px #ff99ff, 0 0 10px #ff99ff, 0 0 15px #ff99ff, 0 0 20px #ff99ff;
+    }
+}
+
+
+/*环绕选项样式*/
+div.cycle-5 a {
+    display: block;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    /*光晕效果2选1*/
+    animation: flicker 1.5s ease-in-out infinite alternate;
+    /*阴影效果2选1*/
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+
+
+    /*环绕选项1定位*/
+    div.cycle-5 a.c1 {
+        position: absolute;
+        left: 0%;
+        top: 5%;
+        background-color: rgb(240, 200, 150);
+    }
+
+
+    /*环绕选项2定位*/
+    div.cycle-5 a.c2 {
+        position: absolute;
+        left: 80%;
+        top: 20%;
+        background-color: rgb(130, 210, 130);
+    }
+
+
+    /*环绕选项3定位*/
+    div.cycle-5 a.c3 {
+        position: absolute;
+        left: -5%;
+        top: 75%;
+        background-color: rgb(150, 150, 200);
+    }
+
+
+/*搜索框样式*/
+div.search {
+    width: 600px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: darkgrey;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin-left: -300px;
+    margin-top: -25px;
+}
+
+
+/*搜索图标样式*/
+form.search i {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+/*搜索输入框样式*/
+form.search input.text {
+    float: left;
+    border: 0;
+    padding: 0;
+    width: 450px;
+    height: 50px;
+    padding-left: 50px;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: white;
+}
+
+
+/*搜索按钮样式*/
+form.search input.search {
+    float: right;
+    border: 0;
+    padding: 0;
+    width: 100px;
+    height: 50px;
+    border-radius: 0 50px 50px 0;
+    background-color: black;
+    color: white;
+}
+
+
+
+iframe.weather {
+    position: relative;
+    left: 50%;
+    transform: translateX(-920px);
+}

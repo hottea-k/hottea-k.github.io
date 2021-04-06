@@ -1,0 +1,129 @@
+/*导航栏容器样式*/
+div.nav {
+    max-width: 1920px;
+    min-width: 1700px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    opacity: 1;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+
+    /*导航栏头像框样式*/
+    div.nav img.nav {
+        width: 45px;
+        height: 45px;
+        float: left;
+        border-radius: 50%;
+        padding: 0 50px;
+        cursor: pointer;
+    }
+
+
+    /*导航栏欢迎标题样式*/
+    div.nav h1.nav {
+        float: left;
+        color: darkcyan;
+        font-weight: bold;
+        font-size: 100%;
+        line-height: 50px;
+        font-style: oblique;
+        cursor: pointer;
+    }
+
+
+    /*时间布局定位*/
+    div.nav div#time {
+        float: left;
+        font-size: 15px;
+        line-height: 50px;
+        margin-left: 2%;
+        color: black;
+    }
+
+
+    /*导航栏选项布局样式*/
+    div.nav ul.nav li.nav {
+        width: 10%;
+        float: right;
+        line-height: 50px;
+    }
+
+
+    /*分割线样式*/
+    div.nav ul.nav li.line {
+        width: 2px;
+        height: 30px;
+        background-color: #808080;
+        float: right;
+        margin: 10px 0;
+    }
+
+
+    /*导航栏选项样式*/
+    div.nav ul.nav li.nav div a {
+        display: block;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        padding: 0 20%;
+        border-radius: 10px;
+    }
+
+
+    /*向下图标样式*/
+    div.nav ul.nav li.nav div.chose a i.fas fa-angle-down {
+        float: right;
+        margin: 18px 0;
+    }
+
+
+    /*选项前图标样式1*/
+    div.nav ul.nav li.nav div a div.i {
+        float: left;
+        font-size: 20px;
+        margin-left: -10%;
+    }
+
+
+        /*选项前图标样式2*/
+        div.nav ul.nav li.nav div a div.i img {
+            float: left;
+            width: 14%;
+            position: absolute;
+            margin: 6.5% -5%;
+        }
+
+
+    /*所有选项点击样式*/
+    div.nav ul.nav li.nav div a:hover {
+        background-color: black;
+        color: wheat;
+    }
+
+
+    /*下拉框样式*/
+    div.nav ul.nav li.nav div.chose-list {
+        display: none;
+        float: right;
+        width: 9.8%;
+        background-color: gainsboro;
+        color: wheat;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+        border: 2px solid rgb(128,128,128);
+        border-radius: 0 0 10px 10px;
+        position: absolute;
+    }
+
+
+    /*下拉框浮现*/
+    div.nav ul.nav li.nav:hover .chose-list {
+        display: block;
+    }
